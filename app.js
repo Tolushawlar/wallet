@@ -59,8 +59,3 @@ function importKey(){
         alert("pharse submitted");
     }
 }
-
-function coin1(){
-    alert("eret");
-    localStorage.setItem('Coin': 'Rainbow');
-}
