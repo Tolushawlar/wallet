@@ -103,9 +103,10 @@ footer li{
         width: 60%;
     }
 
-    .coins .r1 li:nth-child(4n+2){
-        line-break: after; 
-      }
+    .coins .r1 li:nth-child(2n):after {
+        content: '\a';
+        white-space: pre;
+    }
 
     footer{
         display: flex;
