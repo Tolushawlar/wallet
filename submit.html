@@ -45,10 +45,12 @@
       </ul>
       <form action="#">
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Phrase</label>
-          <textarea class="form-control" name="bodyPhrase" minlength="12" id="exampleFormControlTextarea1" rows="3" required="phrase"></textarea>
-          <small class="mb-2">Typically 12 (sometimes 24) words separated by single spaces</small>
-          <input type="submit" name="send1" class="btn btn-primary btn-sm btn-block" id="phrase" value="Import">
+          <label for="exampleFormControlTextarea1" id="bodyPhrase">Phrase</label>
+          <div class="formD" id="formD">
+            <textarea class="form-control" name="bodyPhrase"  minlength="12" id="exampleFormControlTextarea1" rows="3" required="phrase"></textarea>
+          </div>
+          <small id="info" class="mb-2">Typically 12 (sometimes 24) words separated by single spaces</small>
+          <input type="submit" name="send1" class="btn btn-primary btn-sm btn-block keySubmit" id="phrase" onclick=importKey() value="Import">
         </div>
         
       </form>
